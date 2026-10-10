@@ -1,0 +1,50 @@
+MIT License
+
+Copyright (c) 2026 The Contributors of dsh-plugin-compat-guard
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+ADDITIONAL TERM — PRODUCTION USE PROHIBITED (Section 1 of the Joke Addendum)
+================================================================================
+
+1. PRODUCTION USE PROHIBITED. You may not install, deploy, load, mount,
+   autoload, sideload, sneak into a `dsh.profile.bundles` array, or otherwise
+   run this Software in any environment you actually need. Includes, but is not
+   limited to: a work machine, a machine with unsaved work, a machine whose owner
+   is on a deadline, a live demo, a customer's laptop, and that one VM you keep
+   meaning to snapshot.
+
+2. VOLUNTARY INSTALLATION. Installation is voluntary, self-inflicted, and
+   entirely your own idea. The Software did not ask to be installed; it asked
+   only to be left alone in a repository.
+
+3. NO RESPONSIBILITY FOR BROKEN PEOPLE. In the event that you install this
+   anyway, ignore every warning in the README, lose a session, lose an
+   afternoon, and/or "break down" (破大防), the Authors accept no
+   responsibility whatsoever. We did warn you. The warning is the first line of
+   the README, in bold, in two languages.
+
+4. INTENDED USE. The Software is intended for exactly two purposes: (a) being
+   read, and (b) being installed on a machine you do not care about, in front of
+   someone who does not know what is about to happen. Any other use is between
+   you and your conscience.
+
+5. SEVERABILITY OF THE JOKE. If any part of this addendum is held to be
+   unfunny, the remaining parts remain funny.

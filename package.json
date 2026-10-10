@@ -1,0 +1,45 @@
+{
+  "name": "dsh-plugin-compat-guard",
+  "version": "1.0.0",
+  "description": "\u6700\u5927\u7684\u517c\u5bb9\u6027\u4fdd\u62a4 (The Biggest Compatibility Protection) for DeepSeek Harness: when this profile mounts any third-party plugin, the guard writes a verdict and a crash log, then ends the process. A joke plugin \u2014 do not install it on a machine you are working on.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "icon": "./icon.svg",
+  "files": [
+    "lib/**",
+    "locale/*.json",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "plugin",
+    "joke",
+    "mod-conflict",
+    "calamity",
+    "do-not-install"
+  ],
+  "scripts": {
+    "test": "node test/harness.mjs",
+    "probe": "node test/probe-real-profile.mjs"
+  },
+  "license": "MIT"
+}

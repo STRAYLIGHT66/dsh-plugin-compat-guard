@@ -1,0 +1,15 @@
+# dsh-plugin-compat-guard bundle layer.
+#
+# Inserts the one row this bundle owns. Its `config` is the complete default;
+# the user's profile cordis.patch.yml can override any field by targeting the
+# row id `dsh-compat-guard` (a matching override replaces the whole config, so
+# restate every field you want to keep).
+- insert:
+    - id: dsh-compat-guard
+      name: dsh-plugin-compat-guard
+      config:
+        enabled: true
+        dryRun: false
+        exitCode: 1
+        ignore: []
+        writeForensics: true

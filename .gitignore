@@ -1,0 +1,17 @@
+# dependencies / build output
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# dsh runtime leftovers
+.plugin-manager/
+DONT_LOOK_HERE.txt
+*.log
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
